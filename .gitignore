@@ -1,0 +1,45 @@
+# Divers
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# Lié à IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Le dossier .vscode contient la configuration de lancement et les tâches que vous configurez dans
+# VS Code que vous pourriez souhaiter inclure dans le contrôle de version, donc cette ligne
+# est commentée par défaut.
+#.vscode/
+
+# Lié à Flutter/Dart/Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+
+# Lié à la symbolisation
+app.*.symbols
+
+# Lié à l'obfuscation
+app.*.map.json
+
+# Android Studio placera les artefacts de build ici
+/android/app/debug
+/android/app/profile
+/android/app/release

@@ -1,0 +1,46 @@
+# Ce fichier suit les propriétés de ce projet Flutter.
+
+# Utilisé par l'outil Flutter pour évaluer les capacités et effectuer des mises à niveau, etc.
+#
+# Ce fichier doit être contrôlé par version et ne doit pas être modifié manuellement.
+
+version:
+  revision: "17025dd88227cd9532c33fa78f5250d548d87e9a"
+  channel: "stable"
+
+project_type: app
+
+# Suit les métadonnées pour la commande flutter migrate
+migration:
+  platforms:
+    - platform: root
+      create_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+      base_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+    - platform: android
+      create_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+      base_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+    - platform: ios
+      create_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+      base_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+    - platform: linux
+      create_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+      base_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+    - platform: macos
+      create_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+      base_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+    - platform: web
+      create_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+      base_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+    - platform: windows
+      create_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+      base_revision: 17025dd88227cd9532c33fa78f5250d548d87e9a
+
+  # Section fournie par l'utilisateur
+
+  # Liste des chemins locaux (relatifs à ce fichier) qui doivent être
+  # ignorés par l'outil de migration.
+  #
+  # Les fichiers qui ne font pas partie des modèles seront ignorés par défaut.
+  unmanaged_files:
+    - 'lib/main.dart'
+    - 'ios/Runner.xcodeproj/project.pbxproj'
