@@ -1,6 +1,6 @@
 # Avapp
 
-Dépot GitHub de l'application AVA, réalisée dasn le cadre du projet PISTE des HEI38
+Dépot GitHub de l'application AVA, réalisée dans le cadre du projet PISTE des HEI38
 
 ## Objectifs de l'application
 
