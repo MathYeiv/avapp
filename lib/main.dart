@@ -11,27 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Avapp',
       theme: ThemeData(
-        // Ceci est le thème de votre application.
-        //
-        // ESSAYEZ CECI : Essayez d'exécuter votre application avec "flutter run". Vous verrez
-        // que l'application a une barre d'outils violette. Ensuite, sans quitter l'application,
-        // essayez de changer la seedColor dans le colorScheme ci-dessous en Colors.green
-        // puis invoquez "hot reload" (enregistrez vos modifications ou appuyez sur le bouton "hot
-        // reload" dans un IDE supporté par Flutter, ou appuyez sur "r" si vous avez utilisé
-        // la ligne de commande pour démarrer l'application).
-        //
-        // Remarquez que le compteur ne s'est pas réinitialisé à zéro ; l'état de l'application
-        // n'est pas perdu pendant le rechargement. Pour réinitialiser l'état, utilisez plutôt
-        // le redémarrage à chaud.
-        //
-        // Cela fonctionne aussi pour le code, pas seulement pour les valeurs : La plupart des
-        // changements de code peuvent être testés avec juste un rechargement à chaud.
+        fontFamily: 'NotoSans',
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Page d\'accueil de la démo Flutter'),
+      home: const MyHomePage(title: 'Page d\'accueil de l\'application Avapp'),
     );
   }
 }
