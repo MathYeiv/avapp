@@ -1,0 +1,71 @@
+= Organisation des dossiers et découpage du code
+AVA Group
+v1.1, 2025-03-12
+:doctype: article
+:toc: left
+
+Aide mémoire susceptible au changement selon les besoins de développement.
+
+== Pages
+
+Regroupe les différentes pages de l'application.
+
+== Widgets
+
+Regroupe les différents widgets réutilisable dans l'application.
+
+== Models 
+
+Regroupe les classes représentant les données.
+
+== Services
+
+Regroupe la logique métier, appels API, etc.
+
+== Utils 
+
+Regroupe les fonction sutilitaires.
+
+= Annexe
+
+== Dépot de l’application :  
+
+https://github.com/MathYeiv/avapp 
+
+ 
+== Licence de l’application GPLv3 :  
+
+https://www.gnu.org/licenses/gpl-3.0.fr.html 
+
+ 
+== Police & Icones:  
+
+https://www-niassembly-gov-uk.translate.goog/visit-and-learning/autism-and-the-assembly/useful-information/guidance-for-assembly-staff-on-involving-people-with-autism-in-committee-meetings-and-events/?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=rq#:~:text=While%20everyone%20has%20individual%20preferences,letters%2C%20not%20all%20in%20capitals. 
+
+=== Type de licence pour les polices 
+
+https://openfontlicense.org/ofl-fonts/ 
+
+Noto Sans (exemple de polices possible) :  
+
+https://fonts.google.com/noto/specimen/Noto+Sans 
+
+=== Type de licence pour les icônes : 
+
+https://www.apache.org/licenses/LICENSE-2.0 
+
+Icônes de l’application : 
+
+https://m3.material.io/ 
+
+https://fonts.google.com/icons 
+
+== Couleurs de l’application :  
+
+https://www.w3schools.com/colors/colors_picker.asp 
+
+Fond : Crème | ffe6cc 
+
+Couleur de la police : Bleu Foncé | 246175 
+
+Couleur des icônes : Marron| 804000 ? 
